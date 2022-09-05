@@ -1,0 +1,10 @@
+Package: BoxBallSystemPackage
+Type: Package
+Title: Package with tools to visualise and analyse Box-Ball System Dynamics
+Version: 0.1.0
+Author: Justyna Lewandowska-Bejm
+Maintainer: <j.lewandowska07@gmail.com>
+Description: Package was created as part of a master thesis. It contains function that allow to visualise Box-Ball System Dynamics.
+License: none
+Encoding: UTF-8
+LazyData: true
