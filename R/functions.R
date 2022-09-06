@@ -247,7 +247,7 @@ phi<-function(k,q){
   return(prod)
 }
 p_m<-function(M,q){
-  stopifnot(is.numeric(q), is.vector(q),max(q)<1, min(q)>=0,length(q)>0,is.finite(sum(q)),M<=length(q),M>=0)
+  stopifnot(is.numeric(q), is.vector(q),max(q)<1, min(q)>=0,length(q)>0,is.finite(sum(q)))
   if(M>0){prod<-q[M]}
   else {prod<-1} #q_{0}=1
   for ( i in (M+1):length(q)){
