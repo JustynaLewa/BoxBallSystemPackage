@@ -200,7 +200,7 @@ slot.diagram<-function(k){
             if(max(solitions[[nrow(M)-i+1]][[j]])<slots.ind[k]){solitions.attached=solitions.attached+1}
           }
           new.vec<-get(paste('x', (nrow(M)-i+1), sep='_'))
-          new.vec[0]<-solitions.attached
+          new.vec[1]<-solitions.attached
           assign(paste('x', (nrow(M)-i+1), sep='_'),new.vec)
           solitions.attached<-0
         }
