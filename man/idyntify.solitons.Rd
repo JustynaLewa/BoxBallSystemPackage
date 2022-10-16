@@ -11,7 +11,7 @@ length(solitions) is equel to the length of a maximum soltion in a configuration
 length(solitions[[i]]) corresponds to number of solitions of a length i.
 
 solitions[[i]] a list, which contains all coordinates of solitions of length i. At j-th place, the list contains the cooridantes of j-th solition of length i.
-
+}
 \usage{
 idyntify.solitons(k)
 }
