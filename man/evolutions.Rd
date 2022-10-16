@@ -45,7 +45,7 @@ a non-negative integer, which descrbes the number of evolutions.
 }
 \examples{
 evolutions(c(1,0,0,1,1,0,0),2)
-#returns vector c(0,0,1,0,0,0,1)
+#returns vector c(0,0,1,0,0,0,0)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
