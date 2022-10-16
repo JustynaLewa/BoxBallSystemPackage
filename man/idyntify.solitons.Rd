@@ -47,7 +47,7 @@ a binary vector, which describes the configuration. Maximum length is 30.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-idyntify.solitions(c(1,1,1,1,0,0,1,0,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0))
+idyntify.solitons(c(1,1,1,1,0,0,1,0,1,1,1,0,1,0,0,0,0,1,1,0,1,1,0,0,0,0))
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
