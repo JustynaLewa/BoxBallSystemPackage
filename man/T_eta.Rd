@@ -43,7 +43,7 @@ T_eta(k,3)
 \examples{
 #plot of a given configuration eta (zero row), first represents T(eta), and the last row represents T^(3)(eta)
 
-eta(c(1,0,0,1,1,0,0),3)
+T_eta(c(1,0,0,1,1,0,0),3)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
